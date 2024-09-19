@@ -389,6 +389,20 @@ Tailwind offre des classes utilitaires pour créer des mises en page en grille a
 </div>
 ```
 
+### Utilisation de `container`
+
+Tailwind fournit une classe `container` pour créer un conteneur centré avec des largeurs maximales adaptées à chaque point de rupture.
+
+```html
+<div class="container mx-auto px-4">
+  <!-- Contenu centré -->
+</div>
+```
+
+- `mx-auto` : centre horizontalement le conteneur.
+- `px-4` : ajoute un padding horizontal de 1rem pour éviter que le contenu touche les bords de l'écran.
+
+
 ## Exercice 1
 
 **Objectif :**
@@ -428,19 +442,6 @@ Tailwind CSS adopte une approche **mobile-first** pour le développement respons
 - Sur les écrans **inférieurs à 768px**, le fond sera **bleu** (`bg-blue-500`).
 - Sur les écrans **entre 768px et 1023px**, le fond sera **vert** (`md:bg-green-500`).
 - Sur les écrans **à partir de 1024px**, le fond sera **rouge** (`lg:bg-red-500`).
-
-**Utilisation de `container`:**
-
-Tailwind fournit une classe `container` pour créer un conteneur centré avec des largeurs maximales adaptées à chaque point de rupture.
-
-```html
-<div class="container mx-auto px-4">
-  <!-- Contenu centré -->
-</div>
-```
-
-- `mx-auto` : centre horizontalement le conteneur.
-- `px-4` : ajoute un padding horizontal de 1rem pour éviter que le contenu touche les bords de l'écran.
 
 ### Utilisation de `max-`
 
